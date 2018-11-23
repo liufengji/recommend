@@ -29,6 +29,43 @@
 
   ##--website   
      ####--Angular.js 做前端框架
+```
+angular.js
+https://angular.cn/guide/quickstart
+
+angular 创建项目骨架，my-app 项目名称
+ng new my-app
+
+添加bootstrap依赖
+npm install bootstrap --save
+
+添加jquery依赖
+npm install jquery --save
+
+添加systemjs依赖
+npm install systemjs --save
+
+创建新模块
+ng g module appRouting
+
+创建新组件
+ng g component home
+
+创建服务组件
+ng g service service/login
+
+调试项目-启动整个应用程序
+ng serve -p 3000
+http://localhost:4200
+
+设置国内angular.js镜像
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+ng set --global packageManager=cnpm
+
+angular.js 发布项目
+ng build
+会生成dist文件夹，改文件夹，就是最终的发布程序
+```
 
   ##--distribution
      ####--项目体系打包
